@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lt_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donar_name"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donarName"
+        app:layout_constraintBottom_toTopOf="@+id/lt_gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toEndOf="@+id/lt_name_label"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lt_gender_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donor_gender"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_name_label" />
+
+    <TextView
+        android:id="@+id/lt_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donorGender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toEndOf="@+id/lt_gender_label"
+        app:layout_constraintTop_toBottomOf="@+id/lt_name_label" />
+
+    <TextView
+        android:id="@+id/lt_age_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donor_age"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_gender_label" />
+
+    <TextView
+        android:id="@+id/lt_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donorAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toEndOf="@+id/lt_age_label"
+        app:layout_constraintTop_toBottomOf="@+id/lt_gender" />
+
+    <TextView
+        android:id="@+id/lt_blgrp_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donor_blood_group"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_age_label" />
+
+    <TextView
+        android:id="@+id/lt_blgrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donorBlgrp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toEndOf="@+id/lt_blgrp_label"
+        app:layout_constraintTop_toBottomOf="@+id/lt_age" />
+
+    <TextView
+        android:id="@+id/lt_phno_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donor_phone_number"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_blgrp_label" />
+
+    <TextView
+        android:id="@+id/lt_phno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/donorPhno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/lt_phno_label"
+        app:layout_constraintTop_toBottomOf="@+id/lt_blgrp" />
+
+    <TextView
+        android:id="@+id/lt_place_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/donor_place"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_phno_label" />
+
+    <TextView
+        android:id="@+id/lt_place"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/donorPlace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lt_place_label" />
+
+</android.support.constraint.ConstraintLayout>

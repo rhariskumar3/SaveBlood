@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Save Life</string>
+    <string name="title_home">Home</string>
+
+    <string name="click_back_again">Please click BACK again to exit</string>
+    <string name="donarName">Name</string>
+    <string name="donorGender">Gender</string>
+    <string name="donorAge">Age</string>
+    <string name="donorBlgrp">Blood Group</string>
+    <string name="donorPhno">Contact Number</string>
+    <string name="donorPlace">Place</string>
+    <string name="btnSave">Add</string>
+    <string name="btnClear">Clear</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="Permission">Permission:</string>
+    <string name="already_granted">already granted.</string>
+    <string name="not_granted">not yet granted.</string>
+    <string name="Server_Page_refresh">Server Error. Refresh page</string>
+    <string name="donar_name">Donor Name:</string>
+    <string name="donor_gender">Donor Gender:</string>
+    <string name="donor_age">Donor Age:</string>
+    <string name="donor_blood_group">Donor Blood Group:</string>
+    <string name="donor_phone_number">Donor Contact Number:</string>
+    <string name="donor_place">Donor Place:</string>
+    <string name="No_Data_Found">No Data Found</string>
+    <string name="Log_Query">Query:</string>
+    <string name="search_here">Search Blood Group here…</string>
+    <string name="data_added">Data Added…</string>
+    <string name="type_text">text/</string>
+    <string name="share_data">Share Data…</string>
+    <string name="data_removed">Data Removed…</string>
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+
+    <string name="setup_name_hint">Your Name…</string>
+    <string name="setup_save_btn">Save</string>
+    <string name="data_not_added">Data Not Added</string>
+    <string name="add_required">Please Add required Data</string>
+    <string name="user">USER</string>
+    <string name="admin">ADMIN</string>
+    <string name="admin_permission">You\'ll need administrator permission</string>
+    <string name="setup_user_update_btn">Update User Role</string>
+
+    <string name="copyright"> <a href="https://www.facebook.com/r.hariskumar3">© HarishKumarR</a></string>
+
+</resources>
