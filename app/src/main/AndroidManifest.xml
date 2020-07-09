@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.harishsk.saveblood">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -10,15 +11,16 @@
     <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
-        android:name=".saveblood"
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup">
         <activity
-            android:name=".SplashScreen"
+            android:name=".ui.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:configChanges="orientation"
             android:windowSoftInputMode="adjustPan"
             android:label="@string/app_name">
@@ -36,13 +38,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PhoneAuthActivity"
+            android:name=".ui.PhoneAuthActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".SetupActivity"
+            android:name=".ui.SetupActivity"
             android:label="Account Setup"
             android:windowSoftInputMode="adjustPan"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ui.MainActivity"
             android:screenOrientation="portrait"/>
     </application>
 

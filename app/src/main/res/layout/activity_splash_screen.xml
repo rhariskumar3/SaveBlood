@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".SplashScreen">
+    tools:context=".ui.SplashScreen">
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,7 +16,7 @@
         android:minHeight="200dp"
         android:minWidth="200dp"
         android:scaleType="fitCenter"
-        android:src="@mipmap/saveblood" />
+        app:srcCompat="@mipmap/saveblood" />
 
     <TextView
         android:layout_width="wrap_content"

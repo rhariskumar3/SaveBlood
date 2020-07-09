@@ -17,7 +17,7 @@
         android:paddingTop="8dp"
         android:persistentDrawingCache="all"
         android:scrollbarStyle="outsideInset"
-        android:theme="@android:style/Widget.Material.ListView"
+        android:theme="@style/Widget.AppCompat.ListView"
         tools:targetApi="lollipop" />
 
     <ProgressBar

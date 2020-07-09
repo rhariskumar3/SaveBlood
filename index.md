@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# SaveBlood
+Save Blood uses your phone's network to let you find and connect people for blood requirements. Post and Connect with donor.
+Fully based on Google Sheets based Firebase Database.
 
-You can use the [editor on GitHub](https://github.com/rhariskumar3/SaveBlood/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Requirements
+- Firebase Database
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Google Sheets
 
-### Markdown
+- Android SDK
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Auth Type: Firebase Phone Authentication
 
-```markdown
-Syntax highlighted code block
+- Database: Firebase Database
 
-# Header 1
-## Header 2
-### Header 3
+- Storage: Google Sheets
 
-- Bulleted
-- List
+## Usage
+- Android Application collects Blood Donors details from Users.
 
-1. Numbered
-2. List
+- Upload all Donors data to Firebase Database.
 
-**Bold** and _Italic_ and `Code` text
+- Save All data to Google sheets for Emergency Purpose.
+(Google sheets data uploading is only for safety purpose and for Bulk upload)
 
-[Link](url) and ![Image](src)
-```
+- Retrieve Data from Firebase Database to Android application.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Permissions
+- New Users will be always saved as "USER"
 
-### Jekyll Themes
+- Admins only promote users.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rhariskumar3/SaveBlood/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Admins only delete data.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- User has permission to upload new data and Update data.
